@@ -1,0 +1,141 @@
+
+.d2{
+    width: 3840px;
+    height: 720px;
+    background-color: #EDEDED;
+    background-image: url("iut douala.jpg");
+    
+    
+    background-size: contain;
+    animation: defilement1 10s linear infinite;
+}
+@keyframes defilement1{
+    0%{transform: translate(0,0);}
+    33.33%{transform: translate(-25%,0);}
+    66.67%{transform: translate(-50%,0);}
+    100%{transform: translate(-75%,0);}
+}
+.conteneur2{
+    max-width: 1100px;
+    overflow: hidden;
+    margin: 50px auto;
+    box-shadow: 0px 0px 10px #777;
+}
+
+.d1:hover, .d2:hover{
+    animation-play-state: paused;
+}
+#bloc_page
+{
+    width:1280px;
+    margin: auto;
+}
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+body
+{
+	background-color: beige;
+	font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+header, footer
+{
+	 max-width: 1100px;
+    overflow: hidden;
+    margin: 50px auto;
+    box-shadow: 0px 0px 10px #777;
+    background-color: white;
+}
+footer
+{
+    display: flex;
+    background-color:lightgrey;
+    padding-top: 20px;
+
+}
+#coordonnee
+{
+    display: flex;
+    width: 40%;
+}
+#localisation p
+{
+    padding-left: 50px;
+}
+#droit
+{
+	text-align: justify;
+	vertical-align: bottom;
+}
+.form
+{
+	text-align: center;
+
+}
+#nav ul
+{
+	list-style-type: none;
+}
+
+footer h2
+{
+	width: 60%;
+}
+footer a
+{
+	width: 60%;
+}
+#note
+{
+justify-content: space-between;
+}
+footer nav
+{
+	display: flex;
+}
+
+#plateforme nav
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    height: 33px;
+    vertical-align: top;
+   
+    padding-left: 5px;
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    font-size: 0.8em;
+    background-attachment: fixed;
+    width: 1095px;
+
+}
+#plateforme nav li
+{
+    margin-right: 10px;
+    margin-left: 200px;
+    width: 60px;
+    margin-top: -5px;
+}
+#plateforme nav a
+{
+    font-size: 1.3em;
+    color: white;
+    padding-bottom: 3px;
+    text-decoration: none;
+
+}
+#plateforme nav a:hover
+{
+    color: green;
+    border-bottom: 3px solid #760001;
+}
+#plateforme nav ul
+{
+	display: flex;
+	list-style-type: none;
+
+}
